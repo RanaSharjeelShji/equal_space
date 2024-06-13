@@ -65,4 +65,4 @@ import 'package:equal_space/equal_space.dart';
 
 
 [![Learn More](https://yt3.googleusercontent.com/9A0wEzTcikgC4mV4t0wfGrEQUWuKqcPI_thgqBGkRlDpRSbMHwAnKoAl0HmEoVoikNs7CgCGpg=s176-c-k-c0x00ffffff-no-rj)](https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ)
-[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/image%20(2).png?raw=true)](https://github.com/RanaSharjeelShji)
+[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/image%20(3).png?raw=true)](https://github.com/RanaSharjeelShji)
