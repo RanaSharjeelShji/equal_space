@@ -12,8 +12,9 @@ Equal Space is a Flutter package that allows you stop using `SizedBox` for spaci
     <img src="https://github.com/RanaSharjeelShji/equal_space/blob/main/example/assets/Screenshot_2024-06-13-15-44-20-820_com.example.example.jpg?raw=true" alt="Learn More"  height="300">
 </a>
 <a href="https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ">
-    <img src="[https://github.com/RanaSharjeelShji/equal_space/blob/main/example/assets/Screenshot_2024-06-13-15-44-20-820_com.example.example.jpg?raw=true](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/assets/Screenshot_2024-06-13-15-44-20-820_com.example.example.jpg)" alt="Learn More"  height="300">
+    <img src="https://github.com/RanaSharjeelShji/equal_space/blob/main/example/assets/Screenshot_2024-06-13-15-44-20-820_com.example.example.jpg?raw=true" alt="Learn More" width="400" height="300">
 </a>
+
 
 ### SpacedColumn Example
 
