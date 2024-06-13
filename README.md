@@ -8,7 +8,7 @@ Equal Space is a Flutter package that allows you stop using `SizedBox` for spaci
 - **Flexible Alignment**: Support for main axis and cross axis alignment.
 - **Simplified Code**: Reduces boilerplate code for spacing in rows and columns.
 
-[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/Picsart_24-06-13_16-54-08-636.jpg?raw=true)](https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ)
+[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/new.jpg?raw=true)](https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ)
 ### SpacedColumn Example
 
 ```dart
@@ -52,6 +52,8 @@ class MyWidget extends StatelessWidget {
 flutter pub add equal_space
 import 'package:equal_space/equal_space.dart';
 ```
+
+[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/banner.jpg?raw=true)](https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ)
 ### Explanation
 
 - **Overview**: Stop using SizedBox for adding up space in your widgets.
