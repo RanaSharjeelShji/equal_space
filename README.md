@@ -8,7 +8,10 @@ Equal Space is a Flutter package that allows you stop using `SizedBox` for spaci
 - **Flexible Alignment**: Support for main axis and cross axis alignment.
 - **Simplified Code**: Reduces boilerplate code for spacing in rows and columns.
 
-[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/assets/Screenshot_2024-06-13-15-44-20-820_com.example.example.jpg?raw=true)](https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ)
+<a href="https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ">
+    <img src="https://github.com/RanaSharjeelShji/equal_space/blob/main/example/assets/Screenshot_2024-06-13-15-44-20-820_com.example.example.jpg?raw=true" alt="Learn More" width="400" height="300">
+</a>
+
 ### SpacedColumn Example
 
 ```dart
