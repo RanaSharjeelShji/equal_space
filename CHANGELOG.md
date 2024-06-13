@@ -1,3 +1,6 @@
+## 0.0.5
+
+* Layout control from package
 ## 0.0.4
 
 * Reduced code for smooth experience
