@@ -13,8 +13,8 @@ abstract class SpacedWidget extends StatelessWidget {
   final CrossAxisAlignment crossAxisAlignment; // Cross axis alignment
 
   /// Constructor for the SpacedWidget.
-  /// 
-  /// The [children] parameter is required. 
+  ///
+  /// The [children] parameter is required.
   /// The [space] parameter specifies the space between each child widget.
   /// The [mainAxisAlignment] and [crossAxisAlignment] parameters control the alignment of children.
   const SpacedWidget({
@@ -22,7 +22,8 @@ abstract class SpacedWidget extends StatelessWidget {
     this.space = 8.0,
     this.mainAxisAlignment = MainAxisAlignment.start,
     this.crossAxisAlignment = CrossAxisAlignment.center,
-  });
+    Key? key, // Added named 'key' parameter
+  }) : super(key: key); // Used named 'key' parameter in super constructor
 
   /// Getter to determine the axis direction.
   /// This is overridden by subclasses to specify the direction (horizontal for row, vertical for column).
@@ -40,7 +41,7 @@ abstract class SpacedWidget extends StatelessWidget {
   }
 
   /// Adds spacing between children.
-  /// 
+  ///
   /// This method iterates over the children list and inserts SizedBox widgets for spacing.
   List<Widget> addSpacing() {
     if (children.isEmpty) return [];
@@ -60,14 +61,16 @@ abstract class SpacedWidget extends StatelessWidget {
 /// A widget that arranges its children in a horizontal row with equal spacing.
 class SpacedRow extends SpacedWidget {
   /// Constructor for SpacedRow.
-  /// 
+  ///
   /// Inherits properties from SpacedWidget and specifies the axis as horizontal.
   const SpacedRow({
     required List<Widget> children,
     double space = 8.0,
     MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
     CrossAxisAlignment crossAxisAlignment = CrossAxisAlignment.center,
+    Key? key, // Added named 'key' parameter
   }) : super(
+          key: key,
           children: children,
           space: space,
           mainAxisAlignment: mainAxisAlignment,
@@ -81,14 +84,16 @@ class SpacedRow extends SpacedWidget {
 /// A widget that arranges its children in a vertical column with equal spacing.
 class SpacedColumn extends SpacedWidget {
   /// Constructor for SpacedColumn.
-  /// 
+  ///
   /// Inherits properties from SpacedWidget and specifies the axis as vertical.
   const SpacedColumn({
     required List<Widget> children,
     double space = 8.0,
     MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
     CrossAxisAlignment crossAxisAlignment = CrossAxisAlignment.center,
+    Key? key, // Added named 'key' parameter
   }) : super(
+          key: key,
           children: children,
           space: space,
           mainAxisAlignment: mainAxisAlignment,

@@ -1,29 +1,45 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
+# Flutter specific
 .idea/
+.vscode/
+*.iml
+/.dart_tool/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/build/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# iOS specific
+ios/Pods/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
 
-# Flutter/Dart/Pub related
-# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
-/pubspec.lock
-**/doc/api/
-.dart_tool/
-build/
+# Android specific
+android/.gradle/
+android/app/build/
+android/build/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/app/key.properties
+
+# macOS specific
+macos/Flutter/Flutter.xcworkspace/
+
+# Windows specific
+windows/Flutter/flutter_export_environment.sh
+windows/Flutter/ephemeral/.plugin_symlinks/
+windows/Flutter/ephemeral/flutter_tools.stamp
+windows/Flutter/ephemeral/gradle.properties
+windows/Flutter/flutter_windows/.plugin_symlinks/
+windows/Flutter/flutter_windows/ephemeral/.plugin_symlinks/
+windows/Flutter/flutter_windows/ephemeral/flutter_tools.stamp
+windows/Flutter/flutter_windows/ephemeral/gradle.properties
+windows/Flutter/flutter_windows/flutter_export_environment.sh
+
+# Other
+.DS_Store
+.pub/
+.pub-cache/
+
+# Remove any specific test directory entry if present
+# test/

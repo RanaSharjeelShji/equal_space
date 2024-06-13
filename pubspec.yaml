@@ -1,11 +1,12 @@
 name: equal_space
-description: "A new Flutter package project."
+description: "A Flutter package for creating evenly spaced rows and columns."
 version: 0.0.1
-homepage:
+homepage: https://github.com/RanaSharjeelShji/equal_space
+license: MIT
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
-  flutter: ">=1.17.0"
+  flutter: ">=2.0.0"
 
 dependencies:
   flutter:
@@ -16,12 +17,7 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
-
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
