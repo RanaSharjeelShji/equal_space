@@ -1,5 +1,6 @@
 # Equal Space
-
+[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/Picsart_24-06-13_21-28-33-543.jpg?raw=true)](https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ)
+# About
 Equal Space is a Flutter package that allows you stop using `SizedBox` for spacing between widgets. it simplifies the process of creating evenly spaced rows and columns in your Flutter applications. This package provides custom widgets, `SpacedRow` and `SpacedColumn`, which make it easy to manage spacing and alignment of child widgets.
 
 ## Features

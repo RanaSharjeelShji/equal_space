@@ -1,3 +1,6 @@
+## 0.0.6
+
+* Better managment of children
 ## 0.0.5
 
 * Layout control from package
