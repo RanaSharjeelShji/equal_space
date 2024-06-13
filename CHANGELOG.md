@@ -1,3 +1,6 @@
+## 0.0.7
+
+* Reduced Package Size Upto 70%
 ## 0.0.6
 
 * Better managment of children
