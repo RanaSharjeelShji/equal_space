@@ -54,13 +54,12 @@ import 'package:equal_space/equal_space.dart';
 ```
 ### Explanation
 
-- **Overview**: Brief introduction to the package.
-- **Features**: Highlights key features of the package.
-- **Installation**: Instructions for adding the package to a Flutter project.
-- **Usage**: Examples of how to use the `SpacedRow` and `SpacedColumn` widgets.
+- **Overview**: Stop using SizedBox for adding up space in your widgets.
+- **Features**: You can user mainAxis * crossAxisAligments with one more propery `space`.
+- **Benigit**: Examples  `SpacedRow` and `SpacedColumn` widgets shows how effective this package is.
 - **Example**: Instructions to run the example app.
-- **Contributions**: Invitation for contributions and how to contribute.
-- **License**: License information.
+- **Contributions**: Feel free to fork the repo.
+- **License**: MIT License.
 - **Connect with Us**:  Click below to visit my YouTube channel & Github.
 
 

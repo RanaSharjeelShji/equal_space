@@ -1,3 +1,6 @@
+## 0.0.4
+
+* Reduced code for smooth experience
 ## 0.0.3
 
 * Enhance layout and responsiveness.
