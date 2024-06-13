@@ -61,11 +61,8 @@ import 'package:equal_space/equal_space.dart';
 - **Example**: Instructions to run the example app.
 - **Contributions**: Invitation for contributions and how to contribute.
 - **License**: License information.
-- **Connect with Us**:  Click below to visit my YouTube channel.
+- **Connect with Us**:  Click below to visit my YouTube channel & Github.
 
 
 [![Learn More](https://yt3.googleusercontent.com/9A0wEzTcikgC4mV4t0wfGrEQUWuKqcPI_thgqBGkRlDpRSbMHwAnKoAl0HmEoVoikNs7CgCGpg=s176-c-k-c0x00ffffff-no-rj)](https://www.youtube.com/channel/UCnM_HfTRzP_XRdyYmfvTsGQ)
-
-- **Github**:  You can drop Stars.
-
 [![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/image%20(1).png?raw=true)](https://github.com/RanaSharjeelShji)
