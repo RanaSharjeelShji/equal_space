@@ -68,4 +68,4 @@ import 'package:equal_space/equal_space.dart';
 
 - **Github**:  You can drop Stars.
 
-[![Learn More](https://avatars.githubusercontent.com/u/89970169?v=4)](https://github.com/RanaSharjeelShji)
+[![Learn More](https://github.com/RanaSharjeelShji/equal_space/blob/main/example/asset/image%20(1).png?raw=true)](https://github.com/RanaSharjeelShji)
