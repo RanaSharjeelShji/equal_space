@@ -1,7 +1,3 @@
-// lib/spaced_widgets.dart
-
-library equal_space;
-
 import 'package:flutter/material.dart';
 
 /// Abstract base class for spaced widgets.
@@ -9,19 +5,28 @@ import 'package:flutter/material.dart';
 abstract class SpacedWidget extends StatelessWidget {
   final List<Widget> children; // List of child widgets
   final double space; // Space between each child
-  final MainAxisAlignment mainAxisAlignment; // Main axis alignment
-  final CrossAxisAlignment crossAxisAlignment; // Cross axis alignment
+  final MainAxisAlignment? mainAxisAlignment; // Main axis alignment
+  final MainAxisSize? mainAxisSize; // Main axis size
+  final CrossAxisAlignment? crossAxisAlignment; // Cross axis alignment
+  final TextDirection? textDirection; // Text direction
+  final VerticalDirection? verticalDirection; // Vertical direction
+  final TextBaseline? textBaseline; // Text baseline
 
   /// Constructor for the SpacedWidget.
   ///
-  /// The [children] parameter is required.
-  /// The [space] parameter specifies the space between each child widget.
-  /// The [mainAxisAlignment] and [crossAxisAlignment] parameters control the alignment of children.
+  /// The [children] and [space] parameters are required.
+  /// The [mainAxisAlignment], [mainAxisSize], [crossAxisAlignment], [textDirection],
+  /// [verticalDirection], and [textBaseline] parameters control the alignment
+  /// and layout of children.
   const SpacedWidget({
     required this.children,
-    this.space = 8.0,
-    this.mainAxisAlignment = MainAxisAlignment.start,
-    this.crossAxisAlignment = CrossAxisAlignment.center,
+    required this.space,
+    this.mainAxisAlignment,
+    this.mainAxisSize,
+    this.crossAxisAlignment,
+    this.textDirection,
+    this.verticalDirection,
+    this.textBaseline,
     Key? key, // Added named 'key' parameter
   }) : super(key: key); // Used named 'key' parameter in super constructor
 
@@ -34,8 +39,12 @@ abstract class SpacedWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Flex(
       direction: axis,
-      mainAxisAlignment: mainAxisAlignment,
-      crossAxisAlignment: crossAxisAlignment,
+      mainAxisAlignment: mainAxisAlignment ?? MainAxisAlignment.start,
+      mainAxisSize: mainAxisSize ?? MainAxisSize.max,
+      crossAxisAlignment: crossAxisAlignment ?? CrossAxisAlignment.center,
+      textDirection: textDirection,
+      verticalDirection: verticalDirection ?? VerticalDirection.down,
+      textBaseline: textBaseline,
       children: addSpacing(),
     );
   }
@@ -65,16 +74,24 @@ class SpacedRow extends SpacedWidget {
   /// Inherits properties from SpacedWidget and specifies the axis as horizontal.
   const SpacedRow({
     required List<Widget> children,
-    double space = 8.0,
-    MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
-    CrossAxisAlignment crossAxisAlignment = CrossAxisAlignment.center,
+    required double space,
+    MainAxisAlignment? mainAxisAlignment,
+    MainAxisSize? mainAxisSize,
+    CrossAxisAlignment? crossAxisAlignment,
+    TextDirection? textDirection,
+    VerticalDirection? verticalDirection,
+    TextBaseline? textBaseline,
     Key? key, // Added named 'key' parameter
   }) : super(
           key: key,
           children: children,
           space: space,
           mainAxisAlignment: mainAxisAlignment,
+          mainAxisSize: mainAxisSize,
           crossAxisAlignment: crossAxisAlignment,
+          textDirection: textDirection,
+          verticalDirection: verticalDirection,
+          textBaseline: textBaseline,
         );
 
   @override
@@ -88,16 +105,24 @@ class SpacedColumn extends SpacedWidget {
   /// Inherits properties from SpacedWidget and specifies the axis as vertical.
   const SpacedColumn({
     required List<Widget> children,
-    double space = 8.0,
-    MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
-    CrossAxisAlignment crossAxisAlignment = CrossAxisAlignment.center,
+    required double space,
+    MainAxisAlignment? mainAxisAlignment,
+    MainAxisSize? mainAxisSize,
+    CrossAxisAlignment? crossAxisAlignment,
+    TextDirection? textDirection,
+    VerticalDirection? verticalDirection,
+    TextBaseline? textBaseline,
     Key? key, // Added named 'key' parameter
   }) : super(
           key: key,
           children: children,
           space: space,
           mainAxisAlignment: mainAxisAlignment,
+          mainAxisSize: mainAxisSize,
           crossAxisAlignment: crossAxisAlignment,
+          textDirection: textDirection,
+          verticalDirection: verticalDirection,
+          textBaseline: textBaseline,
         );
 
   @override

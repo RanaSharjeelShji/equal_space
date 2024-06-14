@@ -1,3 +1,11 @@
+## 0.0.8
+
+* Added up new properties
+*  MainAxisSize? mainAxisSize,
+*  TextDirection? textDirection,
+*  VerticalDirection? verticalDirection,
+*  TextBaseline? textBaseline,
+*  Key? key,
 ## 0.0.7
 
 * Reduced Package Size Upto 70%

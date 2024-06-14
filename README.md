@@ -17,13 +17,17 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SpacedColumn(
-      space: 16.0,
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      crossAxisAlignment: CrossAxisAlignment.start,
+      space: 26.0,
+      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.end,
+      textDirection: TextDirection.rtl,
+      verticalDirection: VerticalDirection.down,
+      textBaseline: TextBaseline.alphabetic,
       children: [
-        Icon(Icons.star, size: 50),
-        Icon(Icons.star, size: 50),
-        Icon(Icons.star, size: 50),
+        Container(width: 50, height: 50, color: Colors.red),
+        Container(width: 50, height: 50, color: Colors.green),
+        Container(width: 50, height: 50, color: Colors.blue),
       ],
     );
   }
@@ -36,14 +40,18 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SpacedRow(
-      space: 16.0,
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Icon(Icons.star, size: 50),
-        Icon(Icons.star, size: 50),
-        Icon(Icons.star, size: 50),
-      ],
+       space: 26.0,
+       mainAxisAlignment: MainAxisAlignment.center,
+       mainAxisSize: MainAxisSize.min,
+       crossAxisAlignment: CrossAxisAlignment.end,
+       textDirection: TextDirection.rtl,
+       verticalDirection: VerticalDirection.down,
+       textBaseline: TextBaseline.alphabetic,
+       children: [
+         Container(width: 50, height: 50, color: Colors.red),
+         Container(width: 50, height: 50, color: Colors.green),
+         Container(width: 50, height: 50, color: Colors.blue),
+       ],
     );
   }
 }
